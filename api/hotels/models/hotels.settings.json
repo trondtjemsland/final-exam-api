@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "name": "hotels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "icon.icons"
+    },
+    "imgAlt": {
+      "type": "string"
+    },
+    "sliderImages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-slider.slider-images"
+    },
+    "alt_tag": {
+      "type": "string"
+    },
+    "featuredHotel": {
+      "type": "boolean"
+    },
+    "mapImg": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews.reviews"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_image_slider_slider_images",
+  "info": {
+    "name": "sliderImages",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "sliderImg1": {
+      "type": "string"
+    },
+    "sliderImg2": {
+      "type": "string"
+    },
+    "sliderImg3": {
+      "type": "string"
+    },
+    "sliderImg4": {
+      "type": "string"
+    },
+    "sliderImg5": {
+      "type": "string"
+    }
+  }
+}

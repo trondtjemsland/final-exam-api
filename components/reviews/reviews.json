@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "smile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "guestImage": {
+      "type": "string"
+    },
+    "reviewText": {
+      "type": "text"
+    },
+    "reviewTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "reviews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reviewTitle": {
+      "type": "string"
+    },
+    "reviewText": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "guestImg": {
+      "type": "string"
+    }
+  }
+}
