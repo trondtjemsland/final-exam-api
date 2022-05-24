@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_alt_tags_alt_tags",
+  "info": {
+    "name": "alt_tags",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "alt_tag1": {
+      "type": "string"
+    }
+  }
+}
