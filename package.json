@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "main": "server.js",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
+    "start": "node dist/server.js",
+    "build": "tsc",
     "strapi": "strapi"
   },
+  
   "devDependencies": {},
   "dependencies": {
     "strapi": "3.6.8",
